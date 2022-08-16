@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: 'メイリオ','Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+.header {
+    max-width: 100%;
+    height: 60px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    background: rgb(82,78,60);
+    background: linear-gradient(90deg, rgba(82,78,60,1) 0%, rgba(75,70,159,1) 85%, rgba(193,113,242,1) 100%);
+}
+
+.header img {
+    height: 30px;
+    border:none;
+}
+
+.main_container {
+    padding: 20px;    
+}
+
+.container {
+    margin: 0 0 30px 0; 
+    padding:0;
+
+}
+
+h1 {
+    font-size: 32px;
+    color: #364F6B;
+}
+
+h2 {
+    margin: 0;
+    padding: 0 0 0 5px;
+    font-size: 20px;
+    border-left: 7px solid #364F6B;
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    line-height: 1.85;
+
+}
+
+.container a {
+    display: block;
+    width: fit-content;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #1A73E8;
+}
+
+@media (max-width: 599px) {
+    h1 {font-size: 20px;}
+    h2 {font-size: 16px;}
+    p {font-size: 14px;}
+}
